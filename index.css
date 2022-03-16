@@ -4,6 +4,8 @@ body{
     left: 200px;
 }
 
+
+
 .cont{
     background-color: white;
     /* right: 10%; */
@@ -77,4 +79,69 @@ body{
     right: 0px;
     position: absolute;
     top: 50px;
+}
+
+.schedule{
+    width: 60%;
+    left: 100px;
+    position:absolute;    
+    top: 500px;
+    border: 10px;
+    color: rgb(31, 62, 114);
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.schedule .content{
+    /* content: ""; */
+    background-color: white;
+    width: 100%;
+    display: -webkit-inline-box;
+    clear: both;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: -11px 16px 20px 0px grey;
+}
+
+.schedule .sect{
+    width: 33%;
+    float: left;
+    padding: 10px;
+    /* height: 300px;*/
+}
+
+.schedule .title{
+    width: 66%;
+    left: 100px;
+    position:absolute;    
+    top: 500px;
+    border: 10px;
+    color: rgb(31, 62, 114);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.schedule .head{
+   color: rgb(109, 123, 147);
+   top: 550px;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.schedule .info{
+    color: rgb(31 , 62, 114);
+    /*top: 550px;*/
+    font-size: 16px;
+    font-weight: 600;
+    left: 35px;
+    position: relative;
+ }
+
+.scheduleIcon{
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    position: relative;
+    border: 3px solid transparent;
 }
