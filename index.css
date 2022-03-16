@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    right: 200px;
+    left: 200px;
+}
+
+.cont{
+    background-color: white;
+    /* right: 10%; */
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+}
+
+.title{
+    color: rgb(55, 87, 213);
+    font-size:x-large;
+    font-weight:bold;
+    top: 15px;
+    position: absolute;
+    left: 100px;
+}
+
+.menu{    
+    top: 20px;
+    right: 100px;
+    position:absolute;    
+}
+
+.menuElement{
+    color: rgb(109, 123, 147);
+    border: 10px solid white;
+}
+
+.select{
+    background-color: rgb(55, 87, 213);
+    color: white; 
+    border: 10px solid rgb(55, 87, 213);    
+}
+
+.fight{
+    width: 30%;
+    left: 100px;
+    position:absolute;    
+    top: 200px;
+    border: 10px;
+}
+
+.fight1{
+    color: rgb(31, 62, 114);
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.fight2{
+    color : rgb(109, 123, 147);
+    font-size: 20px;
+}
+
+.fight3{
+    color : rgb(45, 74, 123);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fightIcon{
+    width: 25px;
+    height: 30px;
+    top: 13px;
+    position: relative;
+    border: 3px solid transparent;
+}
+
+.imagenEnfermera{
+    width: 50%;
+    right: 0px;
+    position: absolute;
+    top: 50px;
+}
