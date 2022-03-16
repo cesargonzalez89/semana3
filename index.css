@@ -11,7 +11,7 @@ body{
     /* right: 10%; */
     left: 15%;
     width: 70%;
-    height: 100%;
+    height: 2500px;
     position: absolute;
 }
 
@@ -35,10 +35,18 @@ body{
     border: 10px solid white;
 }
 
+.menuElement:hover{
+    background-color: rgb(55, 87, 213);
+    color: white; 
+    border: 10px solid rgb(55, 87, 213);   
+    border-width: 10px 20px;
+}
+
 .select{
     background-color: rgb(55, 87, 213);
     color: white; 
-    border: 10px solid rgb(55, 87, 213);    
+    border: 10px solid rgb(55, 87, 213);   
+    border-width: 10px 20px; 
 }
 
 .fight{
@@ -64,6 +72,10 @@ body{
     color : rgb(45, 74, 123);
     font-size: 15px;
     font-weight: bold;
+}
+
+.fight3:hover{
+    box-shadow: -11px 16px 20px 0px grey;
 }
 
 .fightIcon{
@@ -95,7 +107,7 @@ body{
 
 .schedule .content{
     /* content: ""; */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
     display: -webkit-inline-box;
     clear: both;
@@ -105,7 +117,7 @@ body{
 }
 
 .schedule .sect{
-    width: 33%;
+    width: 25%;
     float: left;
     padding: 10px;
     /* height: 300px;*/
@@ -145,3 +157,148 @@ body{
     position: relative;
     border: 3px solid transparent;
 }
+
+.scheduleButton{
+    position: absolute;
+    right: 3%;
+    top: 60%;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.vaccines{
+    top: 800px;
+    position: absolute;
+    left: 100px;
+    width: 80%;
+    /* z-index: -1;*/
+}
+
+.why{
+    width: 30%;
+    left: 100px;
+    position: absolute;
+    top: 900px;
+    /* border: 10px;*/
+}
+
+.whyTitle{
+    color: rgb(31, 62, 114);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.whyContent{
+    color : rgb(109, 123, 147);
+    font-size: 15px;
+}
+
+.whySection{
+    top: 1050px;
+    left: 100px;
+    position: absolute;
+    width: 80%;
+    display: -webkit-inline-box;
+    clear: both;
+    box-sizing: border-box;
+    /*padding: 10px;*/
+    
+}
+
+.whyTarjet{
+    padding: 6px;
+    color: rgb(109, 123, 147);
+    font-size: 15px;
+    width: 20%;
+    float: left;
+    margin: 6px;
+    /* box-shadow: -11px 16px 20px 0px grey; */
+    border-color: rgba(250,250,255, 0.13);
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.whyTarjet:hover{
+    box-shadow: -11px 16px 20px 0px grey;
+}
+
+.whyTarjetTitle{
+    color : rgb(31 , 62, 114);
+    font-size: 16px;
+}
+
+.whyTarjetContent{
+    color : rgb(109, 123, 147);
+    font-size: 13px;
+}
+
+.woman{
+    position: absolute;
+    top: 1300px;
+    width: 50%;
+}
+
+.womanImg{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+.preparations{
+    width: 30%;
+    right: 100px;
+    position: absolute;
+    top: 1300px;
+    /* border: 10px;*/
+}
+
+.preparationsTitle{
+    color: rgb(31, 62, 114);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.preparationsContent{
+    color : rgb(109, 123, 147);
+    font-size: 15px;
+}
+
+.preparationsSection{
+    top: 1500px;
+    right: 100px;
+    position: absolute;
+    width: 30%;
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+.preparationsTarjet{
+    padding: 6px;
+    color: rgb(109, 123, 147);
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    margin: 6px;
+    /* box-shadow: -11px 16px 20px 0px grey; */
+    border-color: rgba(250,250,255, 0.13);
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.preparationsTarjet:hover{
+    box-shadow: -11px 16px 20px 0px grey;
+}
+
+.preparationsTarjetTitle{
+    color : rgb(31 , 62, 114);
+    font-size: 16px;
+}
+
+.preparationsTarjetContent{
+    color : rgb(109, 123, 147);
+    font-size: 13px;
+}
+
