@@ -4,6 +4,27 @@ body{
     left: 200px;
 }
 
+button {
+    
+    cursor: pointer;
+    display: inline-block;
+    background: rgb(241, 245, 255);
+    color: rgb(55, 87, 213);
+    font-size: 12px;
+    border: 0;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
+}
+  
+button:focus {
+    outline: none;
+}
+  
+button:hover {
+    background: rgb(51  , 83, 209);
+    color: white;
+    transform: scale(0.98);
+}
 
 
 .cont{
@@ -11,7 +32,7 @@ body{
     /* right: 10%; */
     left: 15%;
     width: 70%;
-    height: 2500px;
+    height: 3500px;
     position: absolute;
 }
 
@@ -40,7 +61,12 @@ body{
     color: white; 
     border: 10px solid rgb(55, 87, 213);   
     border-width: 10px 20px;
+    transform: scale(0.98);
 }
+
+.menuElement:focus {
+    outline: none;
+  }
 
 .select{
     background-color: rgb(55, 87, 213);
@@ -48,6 +74,14 @@ body{
     border: 10px solid rgb(55, 87, 213);   
     border-width: 10px 20px; 
 }
+
+.select:hover{
+    transform: scale(0.98);
+}
+
+.select:focus {
+    outline: none;
+  }
 
 .fight{
     width: 30%;
@@ -302,3 +336,74 @@ body{
     font-size: 13px;
 }
 
+.doctor{
+    position: absolute;
+    top: 2020px;
+    width: 50%;    
+    right: 0px;
+
+}
+
+.doctorImg{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+.emergency{
+    width: 30%;
+    left: 100px;
+    position: absolute;
+    top: 2020px;
+    /* border: 10px;*/
+}
+
+.emergencyTitle{
+    color: rgb(31, 62, 114);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.emergencyContent{
+    color : rgb(109, 123, 147);
+    font-size: 15px;
+}
+
+.emergencySection{
+    top: 2200px;
+    left: 100px;
+    position: absolute;
+    width: 40%;
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+    /* padding: 10px;*/
+    
+}
+
+.emergencyTarjet{
+    padding: 6px;
+    color: rgb(109, 123, 147);
+    font-size: 15px;
+    width: 40%;
+    float: left;
+    margin: 6px;
+    /* box-shadow: -11px 16px 20px 0px grey; */
+    border-color: rgba(250,250,255, 0.13);
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.emergencyTarjet:hover{
+    box-shadow: -11px 16px 20px 0px grey;
+}
+
+.emergencyTarjetTitle{
+    color : rgb(31 , 62, 114);
+    font-size: 16px;
+}
+
+.emergencyTarjetContent{
+    color : rgb(109, 123, 147);
+    font-size: 13px;
+}
