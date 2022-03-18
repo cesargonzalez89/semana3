@@ -122,12 +122,19 @@ button:hover {
     border: 3px solid transparent;
 }
 
-.imagenEnfermera{
+.enfermera{
     width: 45%;
     right: 0px;
     position: absolute;
     top: 50px;
     max-width: 530px;
+
+}
+
+.enfermeraImg{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
 }
 
 .schedule{
