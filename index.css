@@ -29,12 +29,13 @@ button:hover {
 
 .cont{
     background-color: white;
-    /* right: 10%; */
-    left: 250px;
-    right: 250px;
+    right: 10%; 
+    left: 10%;
+    /*left: 250px;
+    right: 250px;*/
     /*width: 70%;*/
-    height: 3250px;
     position: absolute;
+    height: 3250px;    
 }
 
 .title{
@@ -126,6 +127,7 @@ button:hover {
     right: 0px;
     position: absolute;
     top: 50px;
+    max-width: 530px;
 }
 
 .schedule{
@@ -272,6 +274,7 @@ button:hover {
     top: 1300px;
     width: 45%;
     /*width: 600px;*/
+    max-width: 530px;
 }
 
 .womanImg{
@@ -343,6 +346,7 @@ button:hover {
     top: 2150px;
     width: 45%;    
     right: 0px;
+    max-width: 530px;
 
 }
 
@@ -444,9 +448,9 @@ button:hover {
 .footTarjet{
     padding: 6px;
     color: rgb(109, 123, 147);
-    font-size: 12px;    
-    float: left;    
-    margin: 30px 50px 0px 50px;
+    font-size: 12px;
+    float: right;
+    margin: 30px 1% 0px 1%;
     width: auto;
     /*
     box-shadow: -11px 16px 20px 0px grey; 
@@ -458,6 +462,7 @@ button:hover {
 .first{
     width: 20%;
     margin: 30px 200px 0px 100px;
+    float: left;
 }
 
 .footTarjetTitle{
@@ -475,10 +480,12 @@ button:hover {
     border: 0px;
     position : absolute;
     left: 100px;
+    bottom: 30px;
 }
 
 .footRight{
     border: 0px;
     position : absolute;
     right: 100px;
+    bottom: 30px;
 }
