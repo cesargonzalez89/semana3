@@ -29,13 +29,13 @@ button:hover {
 
 .cont{
     background-color: white;
-    right: 10%; 
-    left: 10%;
+    right: 15%; 
+    left: 15%;
     /*left: 250px;
     right: 250px;*/
     /*width: 70%;*/
     position: absolute;
-    height: 3250px;    
+    height: 2900px;    
 }
 
 .title{
@@ -49,7 +49,7 @@ button:hover {
 
 .menu{
     top: 20px;
-    right: 100px;
+    right: 3%;
     position:absolute;    
 }
 
@@ -89,24 +89,24 @@ button:hover {
     width: 30%;
     left: 100px;
     position:absolute;    
-    top: 200px;
+    top: 120px;
     border: 10px;
 }
 
 .fight1{
     color: rgb(31, 62, 114);
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 900;
 }
 
 .fight2{
     color : rgb(109, 123, 147);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .fight3{
     color : rgb(45, 74, 123);
-    font-size: 15px;
+    font-size: 11px;
     font-weight: bold;
 }
 
@@ -131,10 +131,10 @@ button:hover {
 }
 
 .schedule{
-    width: 60%;
+    width: 84%;
     left: 100px;
     position:absolute;    
-    top: 500px;
+    top: 450px;
     border: 10px;
     color: rgb(31, 62, 114);
     font-size: 20px;
@@ -239,6 +239,7 @@ button:hover {
     clear: both;
     box-sizing: border-box;
     /*padding: 10px;*/
+    z-index: 1;
     
 }
 
@@ -271,7 +272,7 @@ button:hover {
 
 .woman{
     position: absolute;
-    top: 1300px;
+    top: 1240px;
     width: 45%;
     /*width: 600px;*/
     max-width: 530px;
@@ -303,7 +304,7 @@ button:hover {
 }
 
 .preparationsSection{
-    top: 1500px;
+    top: 1474px;
     right: 100px;
     position: absolute;
     width: 30%;
@@ -311,7 +312,7 @@ button:hover {
     clear: both;
     box-sizing: border-box;
     padding: 10px;
-    
+    z-index: 1;    
 }
 
 .preparationsTarjet{
@@ -343,7 +344,7 @@ button:hover {
 
 .doctor{
     position: absolute;
-    top: 2150px;
+    top: 1964px;
     width: 45%;    
     right: 0px;
     max-width: 530px;
@@ -360,7 +361,7 @@ button:hover {
     width: 30%;
     left: 100px;
     position: absolute;
-    top: 2150px;;
+    top: 2063px;;
     /* border: 10px;*/
 }
 
@@ -376,14 +377,16 @@ button:hover {
 }
 
 .emergencySection{
-    top: 2330px;
+    top: 2247px;
     left: 100px;
     position: absolute;
     width: 40%;
-    display: block;
-    clear: both;
-    box-sizing: border-box;
-    /* padding: 10px;*/
+    /* display: inline-table; */
+    /* clear: both; */
+    /* box-sizing: border-box; */
+    z-index: 1;
+    /* padding: 10px; */
+    max-width: 456px;
     
 }
 
@@ -416,7 +419,7 @@ button:hover {
 
 .foot{
     background-color: rgb(238, 243, 255);
-    top: 3000px;
+    top: 2786px;
     position: absolute;
     width: 100%;
     height: 250px;
@@ -461,7 +464,7 @@ button:hover {
 
 .first{
     width: 20%;
-    margin: 30px 200px 0px 100px;
+    margin: 30px 15% 0px 100px;
     float: left;
 }
 
