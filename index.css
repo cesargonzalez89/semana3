@@ -2,32 +2,40 @@ body{
     background-color: black;
     right: 200px;
     left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
-    
     cursor: pointer;
-    display: inline-block;
     background: rgb(241, 245, 255);
     color: rgb(55, 87, 213);
+    display: inline-block;
+    
+    /*
     font-size: 12px;
     border: 0;
     padding: 0.5rem 1.5rem;
     font-weight: bolder;
+    border-width: 10px 20px; */
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-  
-button:focus {
-    outline: none;
-}
-  
+
 button:hover {
     background: rgb(51  , 83, 209);
     color: white;
     transform: scale(0.98);
 }
-
+  
+button:focus {
+    outline: none;
+}
 
 .cont{
+    top : 0px;
     background-color: white;
     right: 15%; 
     left: 15%;
@@ -55,7 +63,7 @@ button:hover {
 
 .menuElement{
     color: rgb(109, 123, 147);
-    border: 10px solid white;
+    border: 5px solid white;
 }
 
 .menuElement:hover{
@@ -70,18 +78,18 @@ button:hover {
     outline: none;
   }
 
-.select{
+.selected{
     background-color: rgb(55, 87, 213);
     color: white; 
     border: 10px solid rgb(55, 87, 213);   
     border-width: 10px 20px; 
 }
 
-.select:hover{
+.selected:hover{
     transform: scale(0.98);
 }
 
-.select:focus {
+.selected:focus {
     outline: none;
   }
 
@@ -206,8 +214,8 @@ button:hover {
     position: absolute;
     right: 3%;
     top: 60%;
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 150;
 }
 
 .vaccines{
